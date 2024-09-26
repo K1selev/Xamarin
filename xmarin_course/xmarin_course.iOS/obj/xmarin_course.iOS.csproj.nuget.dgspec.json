@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/xmarin_course.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/xmarin_course.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/xmarin_course.iOS.csproj",
+        "projectName": "xmarin_course.iOS",
+        "projectPath": "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/xmarin_course.iOS.csproj",
+        "packagesPath": "/Users/sergey/.nuget/packages/",
+        "outputPath": "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/sergey/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/sergey/Projects/xmarin_course/xmarin_course/xmarin_course.csproj": {
+                "projectPath": "/Users/sergey/Projects/xmarin_course/xmarin_course/xmarin_course.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/sergey/Projects/xmarin_course/xmarin_course/xmarin_course.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sergey/Projects/xmarin_course/xmarin_course/xmarin_course.csproj",
+        "projectName": "xmarin_course",
+        "projectPath": "/Users/sergey/Projects/xmarin_course/xmarin_course/xmarin_course.csproj",
+        "packagesPath": "/Users/sergey/.nuget/packages/",
+        "outputPath": "/Users/sergey/Projects/xmarin_course/xmarin_course/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sergey/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.419/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/Users/sergey/Projects/xmarin_course/xmarin_course/bin/Debug/netstandard2.0/xmarin_course.deps.json
+/Users/sergey/Projects/xmarin_course/xmarin_course/bin/Debug/netstandard2.0/xmarin_course.dll
+/Users/sergey/Projects/xmarin_course/xmarin_course/bin/Debug/netstandard2.0/ref/xmarin_course.dll
+/Users/sergey/Projects/xmarin_course/xmarin_course/bin/Debug/netstandard2.0/xmarin_course.pdb
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.csproj.AssemblyReference.cache
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.AssemblyInfoInputs.cache
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.AssemblyInfo.cs
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.csproj.CoreCompileInputs.cache
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.dll
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/ref/xmarin_course.dll
+/Users/sergey/Projects/xmarin_course/xmarin_course/obj/Debug/netstandard2.0/xmarin_course.pdb

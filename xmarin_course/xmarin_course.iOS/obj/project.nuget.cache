@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OIfdu8hktYgtWegc/knBX71egcremt5xnP2vCS3YenKgwPH33li5R71hVxrf1tBk3/LQEkA5DlG93ov+cr2dtA==",
+  "success": true,
+  "projectFilePath": "/Users/sergey/Projects/xmarin_course/xmarin_course.iOS/xmarin_course.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/sergey/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

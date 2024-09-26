@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{8CC6850C-398C-408B-BF77-51EE8C8C228D}|Default">
+  <MonoDevelop.Ide.ItemProperties.xmarin__course.Android PreferredExecutionTarget="Android.Pixel5_32" />
+  <MonoDevelop.Ide.ItemProperties.xmarin__course.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xmarin_course/App.xaml.cs">
+    <Files>
+      <File FileName="xmarin_course/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="xmarin_course/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="xmarin_course/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="xmarin_course/MainPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xmarin_course" expanded="True">
+            <Node name="xmarin_course" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
