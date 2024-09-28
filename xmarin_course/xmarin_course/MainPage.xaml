@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="xmarin_course.MainPage">
 
-    <StackLayout>
+    <!--<StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
@@ -19,6 +19,51 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-    </StackLayout>
+    </StackLayout>-->
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/MyStyle.css " />
+        <ResourceDictionary>
+            <Color x:Key="500"> #6202FF</Color>
+            <Color x:Key="300"> #985EFF</Color>
+            <Color x:Key="700"> #370083</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <AbsoluteLayout BackgroundColor="{AppThemeBinding Light=#FAFAFA, Dark=#121212}">
+        <!--<Label x:Name="label"
+            StyleClass="myLabel"
+            AbsoluteLayout.LayoutBounds="0.335, 0.176, 0.581, 0.38"
+            AbsoluteLayout.LayoutFlags="All"
+            TextColor="#00FF00"
+            Text="Some text" />-->
+        <Label x:Name="label"
+            StyleClass="myLabel"
+            AbsoluteLayout.LayoutBounds="0.5, 0.45, 0.5, 0.1"
+            AbsoluteLayout.LayoutFlags="All"
+            TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}"
+            Text="Current theme:"
+            Opacity="{Binding Source={x:Reference slider}, Path=Value}"
+               />
+        <Slider
+            x:Name="slider"
+            Minimum="0"
+            Maximum="1"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.1"
+            AbsoluteLayout.LayoutFlags="All"
+            MinimumTrackColor="{x:DynamicResource 700}"
+            MaximumTrackColor="{x:DynamicResource 300}"
+            ThumbColor="{x:DynamicResource 700}"
+            />
+        <Button
+            AbsoluteLayout.LayoutBounds="0.5, 0.65, 0.5, 0.1"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="{AppThemeBinding Light=#F0F0F0, Dark=#333333}"
+            TextColor="{x:DynamicResource 500}"
+            Text="Change theme"
+            Clicked="OnButtonClick">
+        </Button>
+    </AbsoluteLayout>
 
 </ContentPage>
