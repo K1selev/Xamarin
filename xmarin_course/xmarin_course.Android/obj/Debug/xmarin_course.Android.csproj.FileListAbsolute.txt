@@ -575,3 +575,4 @@
 /Users/sergey/Projects/xmarin_course/xmarin_course.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/sergey/Projects/xmarin_course/xmarin_course.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/sergey/Projects/xmarin_course/xmarin_course.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/sergey/Projects/xmarin_course/xmarin_course.Android/obj/Debug/res/drawable/trash.png

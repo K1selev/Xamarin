@@ -11,6 +11,7 @@ namespace xmarin_course
             InitializeComponent();
 
             MainPage = new MainPage();
+            //NavigationService.NavigateAsync("MainNavigationPage/ToDoItemListPage");
         }
 
         protected override void OnStart()
