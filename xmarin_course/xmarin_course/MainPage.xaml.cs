@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace xmarin_course
@@ -21,7 +16,7 @@ namespace xmarin_course
         private async void OnButtonClick(object sender, EventArgs e)
         {
             Debug.WriteLine("Click!");
-            var isLightTheme = await DisplayAlert("Выбор темы", "Выборите тему", "Светлая", "Не фильтрованная");
+            var isLightTheme = await DisplayAlert("Выбор темы", "", "Светлая", "Темная");
             if (isLightTheme)
             {
                 UseLightMode();
@@ -31,6 +26,26 @@ namespace xmarin_course
                 UseDarkMode();
             }
         }
+
+        private async void AddButtonClick(object sender, EventArgs e)
+        {
+            InputField.IsVisible = !InputField.IsVisible;
+            if (InputField.IsVisible)
+            {
+                ButtonAdd.Text = "Скрыть";
+            } else
+            {
+                ButtonAdd.Text = "Добавить";
+            }
+        }
+
+        private async void SettingsButtonClick(object sender, EventArgs e)
+        {
+            ButtonTheme.IsVisible = !ButtonTheme.IsVisible;
+            slider.IsVisible = !slider.IsVisible;
+            label.IsVisible = !label.IsVisible;
+        }
+        
 
         private void UseLightMode()
         {
@@ -43,7 +58,33 @@ namespace xmarin_course
         {
             Debug.WriteLine("choose dark mode");
             Application.Current.UserAppTheme = OSAppTheme.Dark;
-            label.Text = "Выбрана темная тема";
+            label.Text = "Вы на темной стороне";
         }
+
+        private async void HandleTextChanged(object sender, TextChangedEventArgs args)
+        {
+        }
+
+        private async void HandleEnterPressed(object sender, EventArgs args)
+        {
+            Debug.WriteLine("Enter pressed");
+            FlexLayout newTODOCell = new FlexLayout();
+            newTODOCell.JustifyContent = FlexJustify.SpaceBetween;
+            newTODOCell.HeightRequest = 40;
+            newTODOCell.AlignItems = FlexAlignItems.Center;
+
+            Label newTODO = new Label();
+            newTODO.Text = InputField.Text;
+            CheckBox newToDoCheckBox = new CheckBox();
+            newToDoCheckBox.IsChecked = false;
+
+            newTODOCell.Children.Add(newToDoCheckBox);
+            newTODOCell.Children.Add(newTODO);
+
+            ToDoList.Children.Add(newTODOCell);
+            InputField.Text = "";
+        }
+
+
     }
 }

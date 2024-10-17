@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="xmarin_course.iOS.app/xmarin_course.iOS">
+      <BCSymbolMapName>xmarin_course.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>false</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>xmarin_course.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/iPhone/Release/mtouch-symbols.list</SymbolFile>
+      <DSymName>xmarin_course.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/sergey/Projects/xmarin_course/xmarin_course.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
